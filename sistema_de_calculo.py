@@ -19,7 +19,7 @@ def calcular_cache(cache_por_hora, horas, minutos):
 
   return valor_total
 
-st.title('Calculadora de Cachê')
+st.title('Calculadora de cachê')
 
 cache_por_hora = st.number_input('Valor do cachê por hora (R$):', min_value=0.01, step=0.01)
 horas = st.number_input('Horas trabalhadas:', min_value=1, step=1)
